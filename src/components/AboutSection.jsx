@@ -16,16 +16,15 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I’m currently pursuing a Bachelor’s in Information Technology at KCA University 
+              and have hands-on experience building web applications using 
+              HTML, CSS, JavaScript, and various frameworks.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I enjoy working on practical projects like reservation systems and client websites, 
+              where I apply what I learn to solve real problems and 
+              improve user experiences.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -52,8 +51,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    I build websites and applications using 
+                    HTML, CSS, JavaScript, and React.
                   </p>
                 </div>
               </div>
@@ -64,10 +63,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">UI Implementation</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    I work on front-end layouts that match client needs 
+                    and keep the design clean and user-friendly.
                   </p>
                 </div>
               </div>
@@ -79,10 +78,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Client Work</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    I’ve worked directly with clients to build websites 
+                    that match their expectations and needs.
                   </p>
                 </div>
               </div>

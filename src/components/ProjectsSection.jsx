@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "NoOnes Bot",
+    description: "A bot that alerts you for trades and gives bank info to buyers",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Python", "Flask", "Render"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "KidCheck",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Using weather API to give info to your kids about the proper dressing or items to carry",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["React", "Vite", "TailwindCss"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Uber but private!",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Introducing James as an uber driver, and a platform where he can be reached through",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["Html/Css", "Js", "Bootstrap"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -61,11 +61,14 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
-                      {tag}
-                    </span>
-                  ))}
+                  {project.tags.map((tag, index) => (
+  <span
+    key={index}
+    className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+  >
+    {tag}
+  </span>
+))}
                 </div>
 
                 <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
