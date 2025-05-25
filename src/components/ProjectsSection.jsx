@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "KidCheck",
     description:
-      "Using weather API to give info to your kids about the proper dressing or items to carry",
+      "Using weather API to give info to your kids about the proper dressing or items to carry!",
     image: "/projects/project2.png",
     tags: ["React", "Vite", "TailwindCss"],
     demoUrl: "#",
