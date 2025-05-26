@@ -32,10 +32,7 @@ It showcases my best work, supports theme toggling, and includes toast notificat
   - [📂 Projects Section](#-projects-section)
 - [⚙️ Configuration](#️-configuration)
 - [📦 Dependencies](#-dependencies)
-- [🧪 Examples](#-examples)
-- [🛠 Troubleshooting](#-troubleshooting)
 - [👨‍💻 Contributor](#-contributor)
-- [📄 License](#-license)
 
 ---
 
@@ -97,7 +94,7 @@ Supports `default` and `destructive` variants.
 
 ---
 
-### 📂 Projects Section
+## 📂 Projects Section
 
 Displays featured projects with descriptions, images, and GitHub/live demo links.
 
@@ -107,7 +104,7 @@ Displays featured projects with descriptions, images, and GitHub/live demo links
 - 🌦 **KidCheck** – Weather-aware packing assistant for kids  
 - 🚗 **Uber but private!** – A personal ride-hailing showcase project
 
-### Dependencies 
+## Dependencies 
 
 Install with 
 ```bash
@@ -122,4 +119,5 @@ npm install
 
  ```
 ```
-
+## Contributor 
+Made by me @Dtorredo :)
